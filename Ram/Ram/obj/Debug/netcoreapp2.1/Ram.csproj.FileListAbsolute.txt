@@ -1,0 +1,11 @@
+C:\Users\Arseniy\source\repos\Ram\Ram\obj\Debug\netcoreapp2.1\Ram.csprojAssemblyReference.cache
+C:\Users\Arseniy\source\repos\Ram\Ram\obj\Debug\netcoreapp2.1\Ram.csproj.CoreCompileInputs.cache
+C:\Users\Arseniy\source\repos\Ram\Ram\obj\Debug\netcoreapp2.1\Ram.AssemblyInfoInputs.cache
+C:\Users\Arseniy\source\repos\Ram\Ram\obj\Debug\netcoreapp2.1\Ram.AssemblyInfo.cs
+C:\Users\Arseniy\source\repos\Ram\Ram\bin\Debug\netcoreapp2.1\Ram.deps.json
+C:\Users\Arseniy\source\repos\Ram\Ram\bin\Debug\netcoreapp2.1\Ram.runtimeconfig.json
+C:\Users\Arseniy\source\repos\Ram\Ram\bin\Debug\netcoreapp2.1\Ram.runtimeconfig.dev.json
+C:\Users\Arseniy\source\repos\Ram\Ram\bin\Debug\netcoreapp2.1\Ram.dll
+C:\Users\Arseniy\source\repos\Ram\Ram\bin\Debug\netcoreapp2.1\Ram.pdb
+C:\Users\Arseniy\source\repos\Ram\Ram\obj\Debug\netcoreapp2.1\Ram.dll
+C:\Users\Arseniy\source\repos\Ram\Ram\obj\Debug\netcoreapp2.1\Ram.pdb

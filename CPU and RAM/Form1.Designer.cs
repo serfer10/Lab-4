@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pRAM = new System.Diagnostics.PerformanceCounter();
-            this.pCPU = new System.Diagnostics.PerformanceCounter();
+            this.zCPU = new System.Diagnostics.PerformanceCounter();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.metroProgressBar1 = new MetroFramework.Controls.MetroProgressBar();
             this.metroProgressBar2 = new MetroFramework.Controls.MetroProgressBar();
@@ -39,7 +39,7 @@
             this.lblCPU = new MetroFramework.Controls.MetroLabel();
             this.lblRAM = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pRAM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCPU)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zCPU)).BeginInit();
             this.SuspendLayout();
             // 
             // pRAM
@@ -47,11 +47,11 @@
             this.pRAM.CategoryName = "Memory";
             this.pRAM.CounterName = "% Committed Bytes In Use";
             // 
-            // pCPU
+            // zCPU
             // 
-            this.pCPU.CategoryName = "Processor";
-            this.pCPU.CounterName = "% Processor Time";
-            this.pCPU.InstanceName = "_Total";
+            this.zCPU.CategoryName = "Processor";
+            this.zCPU.CounterName = "% Processor Time";
+            this.zCPU.InstanceName = "_Total";
             // 
             // timer
             // 
@@ -123,7 +123,7 @@
             this.Text = "CPU && RAM";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pRAM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCPU)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zCPU)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,7 +132,7 @@
         #endregion
 
         private System.Diagnostics.PerformanceCounter pRAM;
-        private System.Diagnostics.PerformanceCounter pCPU;
+        private System.Diagnostics.PerformanceCounter zCPU;
         private System.Windows.Forms.Timer timer;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar1;
         private MetroFramework.Controls.MetroProgressBar metroProgressBar2;
